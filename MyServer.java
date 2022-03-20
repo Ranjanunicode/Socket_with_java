@@ -1,4 +1,6 @@
-    /* Importing necessary libraries */
+  /* Server side code . Establishing server */
+
+  /* Importing necessary libraries */
     import java.net.*;  
     import java.io.*;  
     /* Creating MyServer class */
@@ -27,7 +29,7 @@
          dout.flush();  
       }
     }  
-    din.close();  
-    s.close();  
-    ss.close();  
+    din.close();  /* pausing data input stream din*/
+    s.close();  /* closing socket s */
+    ss.close();  /* closing socket ss */
     }}  
