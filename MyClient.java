@@ -29,6 +29,6 @@
     System.out.println("Server says: "+str2);  
     }  
       
-    dout.close();  /* pausing data output stream*/
-    s.close();  /* closing socket*/
+    dout.close();  /* pausing data output stream dout */
+    s.close();  /* closing socket s */
     }}  
