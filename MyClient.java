@@ -1,4 +1,6 @@
-    /* Importing important libraries*/
+ /* Client side code.*/
+
+   /* Importing important libraries*/
     import java.net.*;  
     import java.io.*;  
 
@@ -27,6 +29,6 @@
     System.out.println("Server says: "+str2);  
     }  
       
-    dout.close();  
-    s.close();  
+    dout.close();  /* pausing data output stream*/
+    s.close();  /* closing socket*/
     }}  
