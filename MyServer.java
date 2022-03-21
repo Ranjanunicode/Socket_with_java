@@ -3,6 +3,7 @@
   /* Importing necessary libraries */
     import java.net.*;  
     import java.io.*;  
+
     /* Creating MyServer class */
     class MyServer{  
     public static void main(String args[])throws Exception{  
@@ -16,6 +17,7 @@
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));  
       
     String str="start",str2="";  
+
     while(str.equals("start")){
       System.out.println("Client Connected");
       while(!str.equals("stop")){   
@@ -29,7 +31,7 @@
          dout.flush();  
       }
     }  
-    din.close();  /* pausing data input stream din*/
+    din.close();  /* pausing data input stream din */
     s.close();  /* closing socket s */
     ss.close();  /* closing socket ss */
     }}  
