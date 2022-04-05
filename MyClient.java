@@ -1,4 +1,4 @@
- /* Client side code.*/
+ /* Client side code. Instance to connect server for text/message transfer/communication */
 
    /* Importing important libraries*/
     import java.net.*;  
