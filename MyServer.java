@@ -1,4 +1,4 @@
-  /* Server side code . Establishing server for clients for server-client text/message transfer */
+  /* Server side code . Establishing server for clients for server-client text/message transfer/communication */
 
   /* Importing necessary libraries */
     import java.net.*;  
