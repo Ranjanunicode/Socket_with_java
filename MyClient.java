@@ -22,6 +22,7 @@
     str=br.readLine();  
     /* encoding the string for sending it to the server */
     dout.writeUTF(str); 
+    /* Flushing/releasing sent data stored in dout. */
     dout.flush();  
     /* storing the received strings from server into buffer reader */
     str2=din.readUTF();  
